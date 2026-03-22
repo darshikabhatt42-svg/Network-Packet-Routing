@@ -1,19 +1,19 @@
-# 📡 Network Packet Routing System
+#  Network Packet Routing System
 
-## 📌 Overview
+##  Overview
 The **Network Packet Routing System** is a C-based project that simulates how data packets are routed in a network using graph algorithms. It demonstrates efficient pathfinding and traversal techniques used in real-world networking.
 
 ---
 
-## 🚀 Features
-- 📍 Shortest path calculation using **Dijkstra’s Algorithm**
-- 🔄 Graph traversal using **Breadth-First Search (BFS)**
-- 🧠 Efficient routing logic based on weighted graphs
-- 📂 Modular code structure for better understanding and maintenance
+##  Features
+- Shortest path calculation using **Dijkstra’s Algorithm**
+-  Graph traversal using **Breadth-First Search (BFS)**
+-  Efficient routing logic based on weighted graphs
+-  Modular code structure for better understanding and maintenance
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - C Programming Language
 - Graph Data Structures
 - Algorithms:
@@ -22,7 +22,7 @@ The **Network Packet Routing System** is a C-based project that simulates how da
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 .
 ├── main.c # Entry point of the program
 ├── graph.c # Graph implementation
@@ -34,7 +34,7 @@ The **Network Packet Routing System** is a C-based project that simulates how da
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 - The network is represented as a graph.
 - Nodes represent routers/devices.
 - Edges represent connections between nodes.
@@ -43,8 +43,8 @@ The **Network Packet Routing System** is a C-based project that simulates how da
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
-### 🔹 Step 1: Compile the program
+###  Step 1: Compile the program
 ```bash
 gcc main.c bfs.c dijkstra.c graph.c -o output
